@@ -15,7 +15,7 @@
 
 [alias]
   co = checkout
-  st = status -sb
+	st = status
   br = branch
   ci = commit
   fo = fetch origin
