@@ -11,11 +11,10 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
-	st = status
+  st = status -sb
   br = branch
   ci = commit
   fo = fetch origin
@@ -42,10 +41,7 @@
   autocorrect = 1
 
 [push]
-	default = simple
+  default = simple
 
 [branch "master"]
   mergeoptions = --no-edit
-[user]
-	email = trandgthanh@gmail.com
-	name = Thanh Tran
