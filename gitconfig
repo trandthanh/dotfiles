@@ -59,3 +59,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = trandgthanh@gmail.com
+	name = Thanh Tran
